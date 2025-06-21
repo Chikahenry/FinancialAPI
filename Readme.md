@@ -87,12 +87,12 @@ curl -X GET "http://localhost:5000/api/transactions?type=1&fromDate=2024-01-01&t
 
 1. **Local Development:**
    ```bash
-   dotnet run --project src/FinancialTransactionsAPI
+   dotnet run --project FinancialTransactionsAPI
    ```
 
 2. **Run Tests:**
    ```bash
-   dotnet test src/FinancialTransactionsAPI.Tests
+   dotnet test FinancialTransactionsAPI.Tests
    ```
 
 3. **Docker:**
